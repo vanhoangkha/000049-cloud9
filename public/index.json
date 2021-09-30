@@ -1,0 +1,71 @@
+[
+{
+	"uri": "/",
+	"title": "Khởi đầu với AWS Cloud 9",
+	"tags": [],
+	"description": "",
+	"content": "Khởi đầu với AWS Cloud 9 Tổng quan AWS Cloud9 là một môi trường phát triển tích hợp, hay còn gọi là IDE. Cloud9 có thể hoạt động ngay trực tiếp trên trình duyệt web của bạn.\nAWS Cloud9 IDE cung cấp trải nghiệm chỉnh sửa mã phong phú với sự hỗ trợ cho một số ngôn ngữ lập trình và runtime debugger cùng giao diện terminal tích hợp. Cloud9 đi kèm các công cụ mà bạn sử dụng để viết mã, xây dựng, chạy, kiểm tra và gỡ lỗi phần mềm, đồng thời giúp bạn phát hành phần mềm lên đám mây.\nBạn truy cập AWS Cloud9 IDE thông qua trình duyệt web. Bạn có thể cấu hình IDE theo sở thích của mình. Bạn có thể chuyển đổi chủ đề màu sắc, liên kết các phím tắt, bật định dạng mã và tô màu cú pháp dành riêng cho ngôn ngữ lập trình, v.v.\nCloud9 sẽ được sử dụng khá thường xuyên trong các bài lab của Cloud journey, vì vậy trong bài lab này chúng ta sẽ học các thao tác cơ bản nhất khi làm việc với Cloud9.\nNội dung  Tạo Cloud9 instance Thao tác cơ bản Sử dụng AWS CLI Dọn dẹp tài nguyên  "
+},
+{
+	"uri": "/2-basicfeature/2.1-runcommand/",
+	"title": "Sử dụng command line",
+	"tags": [],
+	"description": "",
+	"content": "Sử dụng command line Trong bước này chúng ta sẽ sử dụng giao diện terminal và thực hiện các command line Linux cơ bản trên Cloud9 instance.\n Tại giao diện IDE của Cloud9, click biểu tượng dấu +.   Click New Terminal.  Chúng ta sẽ thấy Cloud9 mở ra một giao diện terminal cho phép chúng ta thực hiện các command Linux.  Tại giao diện Terminal, gõ câu lệnh sau để biết đường dẫn thư mục chúng ta đang làm việc.  pwd\r Kết quả câu lệnh trên cho thấy đường dẫn thư mục làm việc mặc định của chúng ta là /home/ec2-user/environment/.  Gõ câu lệnh dưới đây để liệt kê danh sách file trong đường dẫn thư mục hiện tại.  ls\rVà còn rất nhiều command trên Linux nữa bạn có thể thực hiện trên Cloud9. Linux được sử dụng rất nhiều trong các bài lab của Cloud Journey, hãy dành thời gian để tìm hiểu về Linux nếu bạn chưa có nhiều kinh nghiệm làm việc trên Linux nhé.\n"
+},
+{
+	"uri": "/1-createcloud9/",
+	"title": "Tạo Cloud9 instance",
+	"tags": [],
+	"description": "",
+	"content": "Tạo Cloud9 instance. Trong bước này, chúng ta sẽ truy cập vào giao diện quản trị dịch vụ Cloud9 và tiến hành tạo 1 Cloud9 instance.\n Đăng nhập vào AWS Management Console.  Click vào khung tìm kiếm , gõ Cloud9.   Click vào biểu tượng Cloud9 để đi đến giao diện quản trị Cloud9.  Tại giao diện quản trị Cloud9.   Click Create environment.  Tại trang Name environment.   Đặt tên Cloud9 instance của bạn. VD: cloud9instance. Click Next step.  Tại trang Configure settings.   Mục Environment settings.  Environment type : Chọn Create a new EC2 instance for environment (direct access). Instance type : Chọn t2.micro. Platform : Chọn Amazon Linux2.    Kéo màn hình xuống.   Cost-saving setting : chọn After 30 minutes. Cho phép tự động stop Cloud9 instance để tiết kiệm chi phí. Click Next step.  Tại trang Review.   Kiểm tra cấu hình đã chọn. Kéo xuống cuối trang, click Create environment.  Sẽ mất vài phút để Cloud9 Instance được khởi tạo.  Click biểu tượng close để đóng tab Welcome và AWS Toolkit nếu không cần sử dụng.  Chúc mừng bạn đã hoàn thành việc tạo Cloud9 instance, trong các bước tiếp theo chúng ta sẽ thử thực hiện 1 số thao tác cơ bản trên Cloud9.\n"
+},
+{
+	"uri": "/2-basicfeature/2.2-edittext/",
+	"title": "Làm việc với file text",
+	"tags": [],
+	"description": "",
+	"content": "Làm việc với file text Trong bước này chúng ta sẽ thực hiện tạo và chỉnh sửa các file text, file mã nguồn trên Cloud9.\n Tại giao diện cây thư mục bên trái, click chuột phải vào file README.md và click Open.  Bạn sẽ thấy file README.md đã được mở ra.   Hãy gõ thêm 1 đoạn text vào như hình dưới. VD : It is easy to edit text in Cloud9.  Sau khi chỉnh sửa xong, bạn có thể ấn tổ hợp phím Ctrl + S để save file lại. Hoặc click vào menu File\u0026gt;Save.  Việc tạo file mới cũng hết sức đơn giản.Click vào menu File\u0026gt;New From Template \u0026gt; tùy chọn dạng file text / mã nguồn mà bạn muốn tạo.  "
+},
+{
+	"uri": "/2-basicfeature/",
+	"title": "Tính năng cơ bản",
+	"tags": [],
+	"description": "",
+	"content": "Sử dụng tính năng cơ bản của Cloud9 Trong bước này, chúng ta sẽ sử dụng 1 số tính năng cơ bản của Cloud9 có sử dụng trong các bài lab của Cloud Journey.\nNội Dung  Sử dụng command line Làm việc với file text Quay lại giao diện Dashboard  "
+},
+{
+	"uri": "/2-basicfeature/2.3-backtodashboard/",
+	"title": "Quay lại giao diện Dashboard",
+	"tags": [],
+	"description": "",
+	"content": "Quay lại giao diện Dashboard Khi chúng ta tạo Cloud9, giao diện làm việc sẽ được chuyển tiếp tới Cloud9 IDE trên trình duyệt. Trong bước này, chúng ta sẽ quay lại giao diện AWS management console để làm việc với các dịch vụ khác.\n Tại giao diện Cloud9 IDE.   Click biểu tượng Cloud 9. Click Go To Your Dashboad.  Đôi khi giao diện Cloud9 sẽ thay đổi một chút theo trình duyệt, bạn có thể dùng cách thay thế khác để quay trở về giao diện AWS management console.   Click vào biểu tượng user ở góc phải giao diện Cloud9 IDE. Click Go To Dashboard.  Một tab mới sẽ được mở ra và chúng ta sẽ quay lại giao diện quản trị của AWS Cloud9. Từ đây chúng ta có thể truy cập tới giao diện quản trị của các dịch vụ AWS khác.  Tiếp theo chúng ta sẽ thử chạy các câu lệnh AWS CLI trên Cloud9 nhé.\n"
+},
+{
+	"uri": "/3-useawscli/",
+	"title": "Sử dụng AWS CLI",
+	"tags": [],
+	"description": "",
+	"content": "Sử dụng AWS CLI AWS CLI của AWS là công cụ để quản lý các dịch vụ AWS.Bạn có thể kiểm soát nhiều dịch vụ AWS bằng command line và dễ dàng tự động hóa các dịch vụ của AWS bằng cách tạo ra các file script ( chứ nhiều command line).\nAWS CLI đã được cài đặt sẵn và cấu hình sẵn trên Cloud9 instance.\n Chạy lệnh AWS CLI dưới đây để liệt kê danh sách EC2 instance trong tài khoản của chúng ta.  aws ec2 describe-instances\rChúc mừng bạn đã hoàn thành bài lab cơ bản về AWS Cloud 9. Hãy nhớ thực hiện bước Dọn dẹp tài nguyên để tránh phát sinh chi phí ngoài ý muốn nhé.\n"
+},
+{
+	"uri": "/4-cleanup/",
+	"title": "Dọn dẹp tài nguyên  ",
+	"tags": [],
+	"description": "",
+	"content": "Chúng ta sẽ tiến hành xóa các tài nguyên theo thứ tự sau\n Tại giao diện quản trị của Cloud9.   Click chọn Cloud9 instance mà bạn đã tạo. Click Delete.  Điền Delete vào để xác nhận.   Click Delete để xóa Cloud9 instance đã tạo.  "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
