@@ -1,6 +1,5 @@
 +++
 title = "Quay lại giao diện Dashboard"
-date = 2021
 weight = 3
 chapter = false
 pre = "<b>2.3 </b>"

@@ -1,6 +1,5 @@
 +++
 title = "Tạo Cloud9 instance"
-date = 2021
 weight = 1
 chapter = false
 pre = "<b>1. </b>"

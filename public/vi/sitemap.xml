@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/vi/</loc>
     <lastmod>2020-04-18T00:38:32+07:00</lastmod>
@@ -15,11 +14,8 @@
                 hreflang="vi"
                 href="/vi/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/2-basicfeature/2.1-runcommand/</loc>
-    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,11 +26,8 @@
                 hreflang="vi"
                 href="/vi/2-basicfeature/2.1-runcommand/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/1-createcloud9/</loc>
-    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,11 +38,8 @@
                 hreflang="vi"
                 href="/vi/1-createcloud9/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/2-basicfeature/2.2-edittext/</loc>
-    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -60,11 +50,8 @@
                 hreflang="vi"
                 href="/vi/2-basicfeature/2.2-edittext/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/2-basicfeature/</loc>
-    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -75,11 +62,8 @@
                 hreflang="vi"
                 href="/vi/2-basicfeature/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/2-basicfeature/2.3-backtodashboard/</loc>
-    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -90,11 +74,8 @@
                 hreflang="vi"
                 href="/vi/2-basicfeature/2.3-backtodashboard/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/3-useawscli/</loc>
-    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -105,11 +86,8 @@
                 hreflang="vi"
                 href="/vi/3-useawscli/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/4-cleanup/</loc>
-    <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -120,9 +98,7 @@
                 hreflang="vi"
                 href="/vi/4-cleanup/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -134,9 +110,7 @@
                 hreflang="vi"
                 href="/vi/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -149,5 +123,4 @@
                 href="/vi/tags/"
                 />
   </url>
-  
 </urlset>

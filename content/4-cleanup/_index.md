@@ -1,21 +1,20 @@
 +++
-title = "Dọn dẹp tài nguyên  "
-date = 2021
+title = "Clean up resources"
 weight = 4
 chapter = false
 pre = "<b>4. </b>"
 +++
 
-Chúng ta sẽ tiến hành xóa các tài nguyên theo thứ tự sau 
+We will proceed to delete the resources in the following order
 
-1. Tại giao diện quản trị của Cloud9.
-  + Click chọn Cloud9 instance mà bạn đã tạo.
-  + Click **Delete**.
+1. At the administration interface of Cloud9.
+   + Click on the Cloud9 instance you created.
+   + Click **Delete**.
 
 ![Cloud9](/images/cloud9/020.png?width=90pc)
 
-2. Điền **Delete** vào để xác nhận.
-  + Click **Delete** để xóa Cloud9 instance đã tạo.
+2. Enter **Delete** to confirm.
+   + Click **Delete** to delete the created Cloud9 instance.
 
  
 ![Cloud9](/images/cloud9/021.png?width=90pc)

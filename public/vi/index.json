@@ -1,17 +1,17 @@
 [
 {
 	"uri": "/vi/",
-	"title": "Khởi đầu với AWS Cloud 9",
+	"title": "Bắt đầu với AWS Cloud 9",
 	"tags": [],
 	"description": "",
-	"content": "Khởi đầu với AWS Cloud 9 Tổng quan AWS Cloud9 là một môi trường phát triển tích hợp, hay còn gọi là IDE. Cloud9 có thể hoạt động ngay trực tiếp trên trình duyệt web của bạn.\nAWS Cloud9 IDE cung cấp trải nghiệm chỉnh sửa mã phong phú với sự hỗ trợ cho một số ngôn ngữ lập trình và runtime debugger cùng giao diện terminal tích hợp. Cloud9 đi kèm các công cụ mà bạn sử dụng để viết mã, xây dựng, chạy, kiểm tra và gỡ lỗi phần mềm, đồng thời giúp bạn phát hành phần mềm lên đám mây.\nBạn truy cập AWS Cloud9 IDE thông qua trình duyệt web. Bạn có thể cấu hình IDE theo sở thích của mình. Bạn có thể chuyển đổi chủ đề màu sắc, liên kết các phím tắt, bật định dạng mã và tô màu cú pháp dành riêng cho ngôn ngữ lập trình, v.v.\nCloud9 sẽ được sử dụng khá thường xuyên trong các bài lab của Cloud journey, vì vậy trong bài lab này chúng ta sẽ học các thao tác cơ bản nhất khi làm việc với Cloud9.\nNội dung  Tạo Cloud9 instance Thao tác cơ bản Sử dụng AWS CLI Dọn dẹp tài nguyên  "
+	"content": "Bắt đầu với AWS Cloud 9 Tổng quan AWS Cloud9 là một môi trường phát triển tích hợp, hay còn gọi là IDE. Cloud9 có thể hoạt động ngay trực tiếp trên trình duyệt web của bạn.\nAWS Cloud9 IDE cung cấp trải nghiệm chỉnh sửa mã phong phú với sự hỗ trợ cho một số ngôn ngữ lập trình và runtime debugger cùng giao diện terminal tích hợp. Cloud9 đi kèm các công cụ mà bạn sử dụng để viết mã, xây dựng, chạy, kiểm tra và gỡ lỗi phần mềm, đồng thời giúp bạn phát hành phần mềm lên đám mây.\nBạn truy cập AWS Cloud9 IDE thông qua trình duyệt web. Bạn có thể cấu hình IDE theo sở thích của mình. Bạn có thể chuyển đổi chủ đề màu sắc, liên kết các phím tắt, bật định dạng mã và tô màu cú pháp dành riêng cho ngôn ngữ lập trình, v.v.\nCloud9 sẽ được sử dụng khá thường xuyên trong các bài lab của Cloud journey, vì vậy trong bài lab này chúng ta sẽ học các thao tác cơ bản nhất khi làm việc với Cloud9.\nNội dung  Tạo Cloud9 instance Thao tác cơ bản Sử dụng AWS CLI Dọn dẹp tài nguyên  "
 },
 {
 	"uri": "/vi/2-basicfeature/2.1-runcommand/",
 	"title": "Sử dụng command line",
 	"tags": [],
 	"description": "",
-	"content": "Sử dụng command line Trong bước này chúng ta sẽ sử dụng giao diện terminal và thực hiện các command line Linux cơ bản trên Cloud9 instance.\n Tại giao diện IDE của Cloud9, click biểu tượng dấu +.   Click New Terminal.  Chúng ta sẽ thấy Cloud9 mở ra một giao diện terminal cho phép chúng ta thực hiện các command Linux.  Tại giao diện Terminal, gõ câu lệnh sau để biết đường dẫn thư mục chúng ta đang làm việc.  pwd\r Kết quả câu lệnh trên cho thấy đường dẫn thư mục làm việc mặc định của chúng ta là /home/ec2-user/environment/.  Gõ câu lệnh dưới đây để liệt kê danh sách file trong đường dẫn thư mục hiện tại.  ls\rVà còn rất nhiều command trên Linux nữa bạn có thể thực hiện trên Cloud9. Linux được sử dụng rất nhiều trong các bài lab của Cloud Journey, hãy dành thời gian để tìm hiểu về Linux nếu bạn chưa có nhiều kinh nghiệm làm việc trên Linux nhé.\n"
+	"content": "Sử dụng command line Trong bước này chúng ta sẽ sử dụng giao diện terminal và thực hiện các command line Linux cơ bản trên Cloud9 instance.\n Tại giao diện IDE của Cloud9, click biểu tượng dấu +.   Click New Terminal.  Chúng ta sẽ thấy Cloud9 mở ra một giao diện terminal cho phép chúng ta thực hiện các command Linux.  Tại giao diện Terminal, gõ câu lệnh sau để biết đường dẫn thư mục chúng ta đang làm việc.  pwd  Kết quả câu lệnh trên cho thấy đường dẫn thư mục làm việc mặc định của chúng ta là /home/ec2-user/environment/.  Gõ câu lệnh dưới đây để liệt kê danh sách file trong đường dẫn thư mục hiện tại.  ls Và còn rất nhiều command trên Linux nữa bạn có thể thực hiện trên Cloud9. Linux được sử dụng rất nhiều trong các bài lab của Cloud Journey, hãy dành thời gian để tìm hiểu về Linux nếu bạn chưa có nhiều kinh nghiệm làm việc trên Linux nhé.\n"
 },
 {
 	"uri": "/vi/1-createcloud9/",
@@ -46,7 +46,7 @@
 	"title": "Sử dụng AWS CLI",
 	"tags": [],
 	"description": "",
-	"content": "Sử dụng AWS CLI AWS CLI của AWS là công cụ để quản lý các dịch vụ AWS.Bạn có thể kiểm soát nhiều dịch vụ AWS bằng command line và dễ dàng tự động hóa các dịch vụ của AWS bằng cách tạo ra các file script ( chứ nhiều command line).\nAWS CLI đã được cài đặt sẵn và cấu hình sẵn trên Cloud9 instance.\n Chạy lệnh AWS CLI dưới đây để liệt kê danh sách EC2 instance trong tài khoản của chúng ta.  aws ec2 describe-instances\rChúc mừng bạn đã hoàn thành bài lab cơ bản về AWS Cloud 9. Hãy nhớ thực hiện bước Dọn dẹp tài nguyên để tránh phát sinh chi phí ngoài ý muốn nhé.\n"
+	"content": "Sử dụng AWS CLI AWS CLI của AWS là công cụ để quản lý các dịch vụ AWS.Bạn có thể kiểm soát nhiều dịch vụ AWS bằng command line và dễ dàng tự động hóa các dịch vụ của AWS bằng cách tạo ra các file script ( chứ nhiều command line).\nAWS CLI đã được cài đặt sẵn và cấu hình sẵn trên Cloud9 instance.\n Chạy lệnh AWS CLI dưới đây để liệt kê danh sách EC2 instance trong tài khoản của chúng ta.  aws ec2 describe-instances Chúc mừng bạn đã hoàn thành bài lab cơ bản về AWS Cloud 9. Hãy nhớ thực hiện bước Dọn dẹp tài nguyên để tránh phát sinh chi phí ngoài ý muốn nhé.\n"
 },
 {
 	"uri": "/vi/4-cleanup/",

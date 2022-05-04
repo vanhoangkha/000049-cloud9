@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sử dụng AWS CLI on Khởi đầu với AWS Cloud 9</title>
+    <title>Using AWS CLI on Begin with AWS Cloud 9</title>
     <link>/3-useawscli/</link>
-    <description>Recent content in Sử dụng AWS CLI on Khởi đầu với AWS Cloud 9</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Jan 1970 07:33:41 +0700</lastBuildDate>
-    
-	<atom:link href="/3-useawscli/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <description>Recent content in Using AWS CLI on Begin with AWS Cloud 9</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/3-useawscli/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

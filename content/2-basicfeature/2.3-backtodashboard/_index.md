@@ -1,29 +1,28 @@
 +++
-title = "Quay lại giao diện Dashboard"
-date = 2021
+title = "Back to Dashboard interface"
 weight = 3
 chapter = false
 pre = "<b>2.3 </b>"
 +++
 
-#### Quay lại giao diện Dashboard
+#### Back to Dashboard interface
 
-Khi chúng ta tạo Cloud9, giao diện làm việc sẽ được chuyển tiếp tới Cloud9 IDE trên trình duyệt. Trong bước này, chúng ta sẽ quay lại giao diện AWS management console để làm việc với các dịch vụ khác.
+When we create Cloud9, the interface will be forwarded to Cloud9 IDE in the browser. In this step, we will return to the AWS management console interface to work with other services.
 
-1. Tại giao diện Cloud9 IDE.
-  + Click biểu tượng Cloud 9.
+1. At the Cloud9 IDE interface.
+  + Click the Cloud 9 icon.
   + Click **Go To Your Dashboad**.
 
 ![Cloud9](/images/cloud9/017.png?width=90pc)
 
-2. Đôi khi giao diện Cloud9 sẽ thay đổi một chút theo trình duyệt, bạn có thể dùng cách thay thế khác để quay trở về giao diện AWS management console.
-  + Click vào biểu tượng user ở góc phải giao diện Cloud9 IDE.
+2. Sometimes the Cloud9 interface will change slightly by browser, you can use another alternative to return to the AWS management console interface.
+  + Click on the user icon in the right corner of the Cloud9 IDE interface.
   + Click **Go To Dashboard**.
 
 ![Cloud9](/images/cloud9/018.png?width=90pc)
 
-3. Một tab mới sẽ được mở ra và chúng ta sẽ quay lại giao diện quản trị của AWS Cloud9. Từ đây chúng ta có thể truy cập tới giao diện quản trị của các dịch vụ AWS khác.
+3. A new tab will open and we will return to the AWS Cloud9 administration interface. From here we can access the admin interface of other AWS services.
 
 ![Cloud9](/images/cloud9/019.png?width=90pc)
 
-Tiếp theo chúng ta sẽ thử chạy các câu lệnh AWS CLI trên Cloud9 nhé.
+Next we will try to run AWS CLI commands on Cloud9.

@@ -1,21 +1,20 @@
 +++
-title = "Sử dụng AWS CLI"
-date = 2021
+title = "Using AWS CLI"
 weight = 3
 chapter = false
 pre = "<b>3. </b>"
 +++
 
-#### Sử dụng AWS CLI
+#### Using AWS CLI
 
-AWS CLI của AWS là công cụ để quản lý các dịch vụ AWS.Bạn có thể kiểm soát nhiều dịch vụ AWS bằng command line và dễ dàng tự động hóa các dịch vụ của AWS bằng cách tạo ra các file script ( chứ nhiều command line).
+AWS CLI by AWS is a tool for managing AWS services. You can control many AWS services with the command line and easily automate AWS services by creating script files (not multiple command lines). ).
 
-AWS CLI đã được cài đặt sẵn và cấu hình sẵn trên Cloud9 instance.
+AWS CLI is pre-installed and preconfigured on Cloud9 instance.
 
-1. Chạy lệnh AWS CLI dưới đây để liệt kê danh sách EC2 instance trong tài khoản của chúng ta.
+1. Run the AWS CLI command below to list the EC2 instances in our account.
 ```
 aws ec2 describe-instances
 ```
 ![Cloud9](/images/cloud9/016.png?width=90pc)
 
-Chúc mừng bạn đã hoàn thành bài lab cơ bản về AWS Cloud 9. Hãy nhớ thực hiện bước **Dọn dẹp tài nguyên** để tránh phát sinh chi phí ngoài ý muốn nhé.
+Congratulations on completing the basic AWS Cloud 9 lab. Remember to perform the **Cleanup of Resources** step to avoid unexpected costs.

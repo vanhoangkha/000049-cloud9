@@ -1,35 +1,35 @@
 +++
-title = "Sử dụng command line"
+title = "Using command line"
 date = 2021
 weight = 1
 chapter = false
 pre = "<b>2.1 </b>"
 +++
 
-#### Sử dụng command line
+#### Using command line
 
-Trong bước này chúng ta sẽ sử dụng giao diện terminal và thực hiện các command line Linux cơ bản trên Cloud9 instance.
+In this step, we will use the terminal interface and perform basic Linux command lines on the Cloud9 instance.
 
-1. Tại giao diện IDE của Cloud9, click biểu tượng dấu +.
+1. At the Cloud9 IDE interface, click the + icon.
   + Click **New Terminal**.
 
 ![Cloud9](/images/cloud9/009.png?width=90pc)
 
-2. Chúng ta sẽ thấy Cloud9 mở ra một giao diện terminal cho phép chúng ta thực hiện các command Linux.
+2. We will see Cloud9 open a terminal interface that allows us to execute Linux commands.
 
 ![Cloud9](/images/cloud9/010.png?width=90pc)
 
-3. Tại giao diện Terminal, gõ câu lệnh sau để biết đường dẫn thư mục chúng ta đang làm việc.
+3. At the Terminal interface, type the following command to know the directory path we are working in.
 
 ```
 pwd
 ```
 
-  + Kết quả câu lệnh trên cho thấy đường dẫn thư mục làm việc mặc định của chúng ta là **/home/ec2-user/environment/**.
+  + The result of the above command shows that our default working directory path is **/home/ec2-user/environment/**.
 
 ![Cloud9](/images/cloud9/011.png?width=90pc)
 
-4. Gõ câu lệnh dưới đây để liệt kê danh sách file trong đường dẫn thư mục hiện tại.
+4. Type the command below to list the files in the current directory path.
 
 ```
 ls
@@ -37,4 +37,4 @@ ls
 
 ![Cloud9](/images/cloud9/012.png?width=90pc)
 
-Và còn rất nhiều command trên Linux nữa bạn có thể thực hiện trên Cloud9. Linux được sử dụng rất nhiều trong các bài lab của Cloud Journey, hãy dành thời gian để tìm hiểu về Linux nếu bạn chưa có nhiều kinh nghiệm làm việc trên Linux nhé.
+And there are many more Linux commands you can do on Cloud9. Linux is used a lot in Cloud Journey labs, take the time to learn about Linux if you do not have much experience working on Linux.
