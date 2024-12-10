@@ -4,56 +4,56 @@
 	"title": "Getting Started with AWS Cloud 9",
 	"tags": [],
 	"description": "",
-	"content": "Get started with AWS Cloud 9 Overview AWS Cloud9 is an integrated development environment, or IDE. Cloud9 can work right in your web browser.\nThe AWS Cloud9 IDE provides a rich code editing experience with support for several programming languages ​​and runtime debuggers and a built-in terminal interface. Cloud9 comes with the tools you use to code, build, run, test, and debug your software, and helps you release it to the cloud.\nYou access the AWS Cloud9 IDE through a web browser. You can configure the IDE according to your preferences. You can switch color themes, bind keyboard shortcuts, enable code formatting and programming language-specific syntax coloring, and more.\nCloud9 will be used quite often in Cloud journey labs, so in this lab we will learn the most basic operations when working with Cloud9.\nContent  Create Cloud9 instance Basic Operation Using AWS CLI Resource Cleanup  "
+	"content": "Get started with AWS Cloud 9 Overview AWS Cloud9 is an integrated development environment, or IDE. Cloud9 can work right in your web browser.\nThe AWS Cloud9 IDE provides a rich code editing experience with support for several programming languages ​​and runtime debuggers and a built-in terminal interface. Cloud9 comes with the tools you use to code, build, run, test, and debug your software, and helps you release it to the cloud.\nYou access the AWS Cloud9 IDE through a web browser. You can configure the IDE according to your preferences. You can switch color themes, bind keyboard shortcuts, enable code formatting and programming language-specific syntax coloring, and more.\nCloud9 will be used quite often in Cloud journey labs, so in this lab we will learn the most basic operations when working with Cloud9.\nContent Create Cloud9 instance Basic Operation Using AWS CLI Resource Cleanup "
 },
 {
 	"uri": "/2-basicfeature/2.1-runcommand/",
 	"title": "Using command line",
 	"tags": [],
 	"description": "",
-	"content": "Using command line In this step, we will use the terminal interface and perform basic Linux command lines on the Cloud9 instance.\n At the Cloud9 IDE interface, click the + icon.   Click New Terminal.  We will see Cloud9 open a terminal interface that allows us to execute Linux commands.  At the Terminal interface, type the following command to know the directory path we are working in.  pwd  The result of the above command shows that our default working directory path is /home/ec2-user/environment/.  Type the command below to list the files in the current directory path.  ls And there are many more Linux commands you can do on Cloud9. Linux is used a lot in Cloud Journey labs, take the time to learn about Linux if you do not have much experience working on Linux.\n"
+	"content": "Using command line In this step, we will use the terminal interface and perform basic Linux command lines on the Cloud9 instance.\nAt the Cloud9 IDE interface, click the + icon. Click New Terminal. We will see Cloud9 open a terminal interface that allows us to execute Linux commands. At the Terminal interface, type the following command to know the directory path we are working in. pwd The result of the above command shows that our default working directory path is /home/ec2-user/environment/. Type the command below to list the files in the current directory path. ls And there are many more Linux commands you can do on Cloud9. Linux is used a lot in Cloud Journey labs, take the time to learn about Linux if you do not have much experience working on Linux.\n"
 },
 {
 	"uri": "/1-createcloud9/",
 	"title": "Create Cloud9 instance",
 	"tags": [],
 	"description": "",
-	"content": "Create Cloud9 instance. In this step, we will access the Cloud9 service administration interface and proceed to create a Cloud9 instance.\n Sign in to the AWS Management Console.  Click on the search box, type Cloud9.   Click on Cloud9 icon to go to Cloud9 admin interface.  At the Cloud9 admin interface.   Click Create environment.  At Name environment page.   Name your Cloud9 instance. Example: cloud9instance. Click Next step.  At Configure settings page.   Section Environment settings.  Environment type : Select Create a new EC2 instance for environment (direct access). Instance type : Select t2.micro. Platform : Select Amazon Linux2.    Drag down the screen.   Cost-saving setting : select After 30 minutes. Allows to automatically stop Cloud9 instances to save costs. Click Next step.  At Review page.   Check the selected configuration. Scroll to the bottom of the page, click Create environment.  It will take a few minutes for Cloud9 Instance to be initialized.  Click the close icon to close the Welcome and AWS Toolkit tabs if not needed.  Congratulations on completing the creation of Cloud9 instance, in the next steps we will try to perform some basic operations on Cloud9.\n"
+	"content": "Create Cloud9 instance. In this step, we will access the Cloud9 service administration interface and proceed to create a Cloud9 instance.\nSign in to the AWS Management Console. Click on the search box, type Cloud9. Click on Cloud9 icon to go to Cloud9 admin interface. At the Cloud9 admin interface. Click Create environment. At Name environment page. Name your Cloud9 instance. Example: cloud9instance. Click Next step. At Configure settings page. Section Environment settings. Environment type : Select Create a new EC2 instance for environment (direct access). Instance type : Select t2.micro. Platform : Select Amazon Linux2. Drag down the screen. Cost-saving setting : select After 30 minutes. Allows to automatically stop Cloud9 instances to save costs. Click Next step. At Review page. Check the selected configuration. Scroll to the bottom of the page, click Create environment. It will take a few minutes for Cloud9 Instance to be initialized. Click the close icon to close the Welcome and AWS Toolkit tabs if not needed. Congratulations on completing the creation of Cloud9 instance, in the next steps we will try to perform some basic operations on Cloud9.\n"
 },
 {
 	"uri": "/2-basicfeature/",
 	"title": "Basic Features",
 	"tags": [],
 	"description": "",
-	"content": "Using Cloud9 Basic Features In this step, we will use some of the basic Cloud9 features that are used in the Cloud Journey labs.\nContent  Using command line Working with text files Back to Dashboard interface  "
+	"content": "Using Cloud9 Basic Features In this step, we will use some of the basic Cloud9 features that are used in the Cloud Journey labs.\nContent Using command line Working with text files Back to Dashboard interface "
 },
 {
 	"uri": "/2-basicfeature/2.2-edittext/",
 	"title": "Working with text files",
 	"tags": [],
 	"description": "",
-	"content": "Working with text files In this step, we will create and edit text files, and source code files on Cloud9.\n At the left directory tree interface, right-click the README.md file and click Open.  You should see the README.md file opened.   Please type 1 more text in as shown below. Example: It is easy to edit text in Cloud9.  After editing, you can press the key combination Ctrl + S to save the file. Or click on the menu File\u0026gt;Save.  Creating a new file is also very simple. Click on the menu File\u0026gt;New From Template \u0026gt; option the text file / source code you want to create.  "
+	"content": "Working with text files In this step, we will create and edit text files, and source code files on Cloud9.\nAt the left directory tree interface, right-click the README.md file and click Open. You should see the README.md file opened. Please type 1 more text in as shown below. Example: It is easy to edit text in Cloud9. After editing, you can press the key combination Ctrl + S to save the file. Or click on the menu File\u0026gt;Save. Creating a new file is also very simple. Click on the menu File\u0026gt;New From Template \u0026gt; option the text file / source code you want to create. "
 },
 {
 	"uri": "/2-basicfeature/2.3-backtodashboard/",
 	"title": "Back to Dashboard interface",
 	"tags": [],
 	"description": "",
-	"content": "Back to Dashboard interface When we create Cloud9, the interface will be forwarded to Cloud9 IDE in the browser. In this step, we will return to the AWS management console interface to work with other services.\n At the Cloud9 IDE interface.   Click the Cloud 9 icon. Click Go To Your Dashboad.  Sometimes the Cloud9 interface will change slightly by browser, you can use another alternative to return to the AWS management console interface.   Click on the user icon in the right corner of the Cloud9 IDE interface. Click Go To Dashboard.  A new tab will open and we will return to the AWS Cloud9 administration interface. From here we can access the admin interface of other AWS services.  Next we will try to run AWS CLI commands on Cloud9.\n"
+	"content": "Back to Dashboard interface When we create Cloud9, the interface will be forwarded to Cloud9 IDE in the browser. In this step, we will return to the AWS management console interface to work with other services.\nAt the Cloud9 IDE interface. Click the Cloud 9 icon. Click Go To Your Dashboad. Sometimes the Cloud9 interface will change slightly by browser, you can use another alternative to return to the AWS management console interface. Click on the user icon in the right corner of the Cloud9 IDE interface. Click Go To Dashboard. A new tab will open and we will return to the AWS Cloud9 administration interface. From here we can access the admin interface of other AWS services. Next we will try to run AWS CLI commands on Cloud9.\n"
 },
 {
 	"uri": "/3-useawscli/",
 	"title": "Using AWS CLI",
 	"tags": [],
 	"description": "",
-	"content": "Using AWS CLI AWS CLI by AWS is a tool for managing AWS services. You can control many AWS services with the command line and easily automate AWS services by creating script files (not multiple command lines). ).\nAWS CLI is pre-installed and preconfigured on Cloud9 instance.\n Run the AWS CLI command below to list the EC2 instances in our account.  aws ec2 describe-instances Congratulations on completing the basic AWS Cloud 9 lab. Remember to perform the Cleanup of Resources step to avoid unexpected costs.\n"
+	"content": "Using AWS CLI AWS CLI by AWS is a tool for managing AWS services. You can control many AWS services with the command line and easily automate AWS services by creating script files (not multiple command lines). ).\nAWS CLI is pre-installed and preconfigured on Cloud9 instance.\nRun the AWS CLI command below to list the EC2 instances in our account. aws ec2 describe-instances Congratulations on completing the basic AWS Cloud 9 lab. Remember to perform the Cleanup of Resources step to avoid unexpected costs.\n"
 },
 {
 	"uri": "/4-cleanup/",
 	"title": "Clean up resources",
 	"tags": [],
 	"description": "",
-	"content": "We will proceed to delete the resources in the following order\n At the administration interface of Cloud9.  Click on the Cloud9 instance you created. Click Delete.    Enter Delete to confirm.  Click Delete to delete the created Cloud9 instance.    "
+	"content": "We will proceed to delete the resources in the following order\nAt the administration interface of Cloud9. Click on the Cloud9 instance you created. Click Delete. Enter Delete to confirm. Click Delete to delete the created Cloud9 instance. "
 },
 {
 	"uri": "/categories/",
